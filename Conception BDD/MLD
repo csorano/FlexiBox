@@ -1,0 +1,12 @@
+# Modèle créé le : Thu Jun 14 08:29:09 CEST 2018 
+INFORMATIONS_BANCAIRES (idInformationsBancaires, #idUtilisateur) 
+UTILISATEUR (idUtilisateur) 
+FACTURE (idFacture, #idEtatFacture, #idUtilisateur) 
+FACTURE_LIGNE (idFactureLigne, #idFacture) 
+OBJET (idObjet, #idUtilisateur) 
+PARAM_ETAT_OBJET (idEtat) 
+PARAM_TYPE_OBJET (idType) 
+PARAM_CATEGORIE_OBJET (idCategorie) 
+CHANGEMENT_ETAT_OBJET (idChangementEtat, #idObjet) 
+PARAM_ETAT_FACTURE (idEtatFacture) 
+qualifier (idEtat, idType, idCategorie, idObjet) 
